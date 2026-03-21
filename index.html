@@ -40,6 +40,14 @@
       padding-left: 1.2em;
       text-indent: -1.2em;
     }
+    @media (prefers-color-scheme: dark) {
+      body              {color: #e0e0e0; background-color: #1a1a1a;}
+      a:link, a:visited {color: #e0e0e0; background-color: #333;}
+      a:hover           {color: #e0e0e0; background-color: #555;}
+      a:active          {color: #aaa;    background-color: #555;}
+      hr                {color: #e0e0e0; background-color: #e0e0e0;}
+      img               {filter: invert(1);}
+    }
   </style>
   <!-- blank opens links in a new tab -->
   <base target="_self">
